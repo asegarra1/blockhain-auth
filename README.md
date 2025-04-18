@@ -51,6 +51,8 @@ Instead of relying on centralized services like Ring, Nest, or Wi-Fi-based locks
 4. The signature is verified using the public address  
 5. If verified and registered, the LED toggles using the pushbutton  
 
+<img width="465" alt="image" src="https://github.com/user-attachments/assets/f825f68b-3916-496f-9e64-f4d8de594169" />
+
 ---
 
 ## 🔐 Why Use Blockchain?
