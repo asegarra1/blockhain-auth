@@ -1,0 +1,136 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "deviceAddr",
+						"type": "address"
+					}
+				],
+				"name": "DeviceDeregistered",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "deviceAddr",
+						"type": "address"
+					}
+				],
+				"name": "DeviceRegistered",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "deviceAddr",
+						"type": "address"
+					}
+				],
+				"name": "deregisterDevice",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "deviceAddr",
+						"type": "address"
+					}
+				],
+				"name": "isDeviceRegistered",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "deviceAddr",
+						"type": "address"
+					}
+				],
+				"name": "registerDevice",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "registeredDevices",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/deviceAuth.sol": "DeviceAuth"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/deviceAuth.sol": {
+			"keccak256": "0x4efcfaa5dee1eb03525f91af428be86f051c5f817bfa1b8ff7ff5992dbe7cdcd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8fad6e7f754128c3c1ad97368214a579c2101373b4bd77a7991ce8fc75c6f621",
+				"dweb:/ipfs/QmfYa5ctshJ5zT3zUJk7zhWYkZVxzeEJb5SoUnQuvQEuTw"
+			]
+		}
+	},
+	"version": 1
+}

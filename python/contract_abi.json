@@ -1,0 +1,92 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "deviceAddr",
+				"type": "address"
+			}
+		],
+		"name": "deregisterDevice",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"internalType": "address",
+				"name": "deviceAddr",
+				"type": "address"
+			}
+		],
+		"name": "DeviceDeregistered",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"internalType": "address",
+				"name": "deviceAddr",
+				"type": "address"
+			}
+		],
+		"name": "DeviceRegistered",
+		"type": "event"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "deviceAddr",
+				"type": "address"
+			}
+		],
+		"name": "registerDevice",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "deviceAddr",
+				"type": "address"
+			}
+		],
+		"name": "isDeviceRegistered",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "registeredDevices",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
