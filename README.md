@@ -1,5 +1,4 @@
 # 🔐 Pi Blockchain Lock
-
 A Raspberry Pi-powered smart lock simulation that uses **blockchain authentication** to control physical access — no cloud, no vendors, just trustless crypto-based security.
 
 Instead of relying on centralized services like Ring, Nest, or Wi-Fi-based locks, this system uses Ethereum-compatible **challenge-response signing** and **on-chain device registration** to validate access before allowing the LED (simulating a lock) to toggle.
